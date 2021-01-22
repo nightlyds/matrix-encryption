@@ -1,6 +1,6 @@
 import numpy as np
-from answer import answer
-from introduce import printCharacters
+from modules.answer import answer
+from modules.introduce import printCharacters
 
 
 def encryptor(encryption_type, language_with_keys):

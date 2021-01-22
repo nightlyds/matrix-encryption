@@ -1,8 +1,10 @@
-from decryptor import decryptor
-from encryptor import encryptor
-from characters_keys import characters_keys
-from introduce import introduce, printCharacters
-from answer import answer
+# import sys
+# sys.path.insert(0, '/modules')
+from modules.decryptor import decryptor
+from modules.encryptor import encryptor
+from modules.characters_keys import characters_keys
+from modules.introduce import introduce, printCharacters
+from modules.answer import answer
 
 # Return: Matrix or Number type | True or False
 encryption_type = introduce()

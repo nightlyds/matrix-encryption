@@ -1,5 +1,5 @@
 import time
-from answer import answer
+from modules.answer import answer
 
 
 # Print some character some time
