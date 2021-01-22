@@ -1,0 +1,2 @@
+# matrix-encryption
+MATRIX ENCRYPTION AND DECRYPTION METHOD
