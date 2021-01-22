@@ -7,7 +7,7 @@ Does everyone hear about different types of encryption? I do! Because of that I 
 ### LEARNING
 The first stage of the encryption is a language alphabet and a language name, the first one is the object which will has some special characters in the future, the second one is for start point of these special characters.
 
-You can open file [modules/characters_keys.py](https://github.com/nightlyds/matrix-encryption/blob/main/modules/characters_keys.py) and have a look at this algorithm. That`s just building object from the language alphabet with their unique characters (in this case: it is simple numbers). I was thinking about a binary tree algorithm, but I change my mind on another method that looks like:
+You can open file [modules/characters_keys.py](https://github.com/nightlyds/matrix-encryption/blob/main/modules/characters_keys.py) and have a look at this algorithm. That`s just building object from the language alphabet with their unique characters (in this case: it is simple numbers). I was thinking about a binary tree algorithm, but I change my mind on another method that looks like [Algorithm](https://github.com/nightlyds/matrix-encryption/blob/main/learning_files/algorithm.jpg):
 
 ![ALGORITHM PHOTO](https://cdn1.savepice.ru/uploads/2021/1/22/49b6be6f983b6523a3183101825082e7-full.jpg)
 
