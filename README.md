@@ -19,9 +19,9 @@ The next stage is decryption. It works by the next method: you can choose **matr
 - **The Number Method** - It works simpler than The Matrix Method, you don`t need use matrices, you can just use simple numbers, but you need know all special/unique characters for every letter in [The Object](https://github.com/nightlyds/matrix-encryption/blob/main/learning_files/english_alphabet_with_characters.py)
 
 ### If you don`t know what is matrix and determinant:
-**Matrix** - is a rectangular array or table of numbers, symbols, or expressions, arranged in rows and columns. [1](https://en.wikipedia.org/wiki/Matrix_(mathematics)). Matrix has any size, it can be **2x2, 3x3 of even 64x64** size. **The determinant** - in linear algebra, the determinant is a scalar value that can be computed from the elements of a square matrix and encodes certain properties of the linear transformation described by the matrix [2](https://en.wikipedia.org/wiki/Determinant). In our case you can use any size matrices, but you need know how to calculate the determinant of the matrix, if you choose The Matrix encryption method. That`s the formula:
+**Matrix** - is a rectangular array or table of numbers, symbols, or expressions, arranged in rows and columns. [1](https://en.wikipedia.org/wiki/Matrix_(mathematics)). Matrix has any size, it can be **2x2, 3x3 of even 64x64** size. **The determinant** - in linear algebra, the determinant is a scalar value that can be computed from the elements of a square matrix and encodes certain properties of the linear transformation described by the matrix [2](https://en.wikipedia.org/wiki/Determinant). In our case you can use any size matrices, but you need know how to calculate the determinant of the matrix, if you choose The Matrix encryption method. That`s the formula [3](http://mozgan.ru/Images/Matrix/14.png):
 
-MATRIX | THE DETERMINANT FORMULE IMAGE
+![THE DETERMINANT OF MATRIX 3X3 FORMULA](http://mozgan.ru/Images/Matrix/14.png)
 
 The encryption method. If you need encrypt some text, you can also choose the one option from the encryption methods. In depend from the method you will get matrices for your secret text or just numbers for every letter. [The Full Array Of The Matrices For Every Letter](https://github.com/nightlyds/matrix-encryption/blob/main/learning_files/english_alphabet_with_matrices.py)
 
