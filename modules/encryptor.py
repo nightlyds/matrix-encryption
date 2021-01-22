@@ -4,7 +4,7 @@ from modules.introduce import printCharacters
 
 
 def encryptor(encryption_type, language_with_keys):
-    englishWithMatrixies = [{'a': [[2, 1],
+    englishWithMatrices = [{'a': [[2, 1],
                                    [7, 7]]},
                             {'b': [[16, 1],
                                    [1, 1]]},
@@ -76,7 +76,7 @@ def encryptor(encryption_type, language_with_keys):
         # For the Matrix method search
         if(encryption_type == "MATRIX"):
             # Look at the Array with Matrices
-            for i in englishWithMatrixies:
+            for i in englishWithMatrices:
                 # Take key and character every object in the Array
                 for key, character in i.items():
                     if(character_input == key):
