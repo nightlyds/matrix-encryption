@@ -9,7 +9,7 @@ The first stage of the encryption is a language alphabet and a language name, th
 
 You can open file [modules/characters_keys.py](https://github.com/nightlyds/matrix-encryption/blob/main/modules/characters_keys.py) and have a look at this algorithm. That`s just building object from the language alphabet with their unique characters (in this case: it is simple numbers). I was thinking about a binary tree algorithm, but I change my mind on another method that looks like [Algorithm](https://github.com/nightlyds/matrix-encryption/blob/main/learning_files/algorithm.jpg):
 
-![ALGORITHM PHOTO](https://cdn1.savepice.ru/uploads/2021/1/22/49b6be6f983b6523a3183101825082e7-full.jpg)
+![ALGORITHM PHOTO](https://imageup.ru/img225/3701262/algorithm.jpg.html)
 
 There are dividing alphabet on two parts, I will tell on English language example, the first one letter in the English alphabet is **'a'** and it have the special/unique character: **language_name.length** (for example, english word has the length: **7 characters** - that`s start point). The second letter will has special/unique character by the formula: **previus_character * 2 + 1** (for example: after **'a'** in the English alphabet is **'b'** letter and it will has: **7 * 2 + 1 = 8**), the full list looks like: [The Full Object With Keys And Characters](https://github.com/nightlyds/matrix-encryption/blob/main/learning_files/english_alphabet_with_characters.py)
 
